@@ -91,3 +91,9 @@ Same people as round 3, re-shot with prompts that describe only what the viewer 
 5. **Normal lens, not wide-angle.** At waist-up distance, wide-angle distortion looks wrong. Use "normal lens with no wide-angle distortion, slight sensor noise, mild compression, true-to-life color."
 6. **Give the hands a job** (resting in lap, on the counter, on the armrests). Floating or hidden hands are where AI images break.
 7. **Same identity across reframes:** use FLUX 3 (`flux_3_image`) with the chosen still as `image_references`, not outpaint. Outpaint keeps the original selfie arm and camera angle.
+
+## Hook POC: L2 (advisor)
+
+- Seedance 2.5, 5s, 720p, native voice, static eye-level shot, line: "Seven point two five percent. Locked. Yeah... read that twice." (he taps the desk on "Locked")
+- Job `dc4faea6-94dc-4aa2-9756-9dadd1e8c681`: https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_185048_dc4faea6-94dc-4aa2-9756-9dadd1e8c681.mp4
+- Suggested name: `advisor_man55_readittwice_v1`
