@@ -53,4 +53,4 @@ Overlays (Montserrat ExtraBold, white on 62% black, at chest height, inside ever
 
 **Meta setup:** CTA button **Learn More** → booking page. Upload the 9:16 for Stories/Reels and the 1:1 (or 4:5) for Feed using placement asset customization, so Meta doesn't auto-crop. Add any lawyer-required disclosure in the primary text or as an extra overlay.
 
-**Cost:** ~390 credits in total for the hero ad, including the hook test and two re-generated clips.
+**Cost (from Higgsfield transactions):** 427 credits for the hero ad: hook test 35, clips 1–3 first pass 245 (91 + 77 + 77), clip 2 redo 91, tax-line clip 56. The first clip 2 (91) was discarded.
