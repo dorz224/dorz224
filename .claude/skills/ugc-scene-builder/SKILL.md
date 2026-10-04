@@ -60,6 +60,18 @@ Infinite UGC has no connector here, so either hand the user the scene plan to pa
 - Quote the cost (e.g. `ads_studio_quote` or the preview the tool gives) and get the user's OK **before** generating anything that spends credits.
 - Use 9:16, keep the character description identical across scenes, and regenerate single failed scenes rather than the whole ad.
 
+## Presenter stills (avatar / first frame)
+
+The still sets the look of the whole ad, so get it right before spending video credits.
+
+- **Describe what the viewer sees, never how it was filmed.** "Phone propped on a tripod", "selfie", "filming herself" make the model draw the gear into the frame. Write "vertical video still, eye-level medium shot of X talking directly to the viewer" and add: "no camera, phone, tripod, ring light, microphone, laptop, monitor or mirror anywhere in the frame."
+- **Plan for Meta's 1:1 and 4:5 crops.** A centered 1:1 crop keeps only the middle ~56% of a 9:16 frame. Ask for a waist-up shot, centered, "top of the head about a quarter of the way down, face near the vertical center, hands in the lower-middle". Keep overlays inside the center square too.
+- **Realism comes from specifics:** an ordinary person ("not a model"), real skin detail, everyday clothes, a lived-in room, flat or uneven, slightly underexposed light, "normal lens with no wide-angle distortion, slight sensor noise, true-to-life color". Avoid glossy skin, golden-hour glow, salon hair and posed grins.
+- **Give the hands a job** (in the lap, on a counter or armrests). No paper, notepads or screens in shot: models invent fake numbers on them. Numbers go in as editor overlays.
+- **Check the client's casting rules** (ethnicity, age, nationality, accent) before generating, and record them in the brand folder.
+- **To re-frame a chosen presenter, keep the face** by using a reference-image model (e.g. Higgsfield `flux_3_image` with the still as `image_references`), not outpainting, which keeps the old selfie arm and angle.
+- Generate cheap stills first (Soul 2.0 is ~0.12 credits), let the user pick, then animate one 5s test before the full ad.
+
 ## Output
 
 A scene table (# | setting | action | expression | dialogue | sec), the one-line character description(s), total runtime, and the ad name (`format_avatar_hook_version`) to use when it goes live.
