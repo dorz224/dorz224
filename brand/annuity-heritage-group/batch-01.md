@@ -3,13 +3,14 @@
 Built with the ugc-pipeline skills on 2026-10-04.
 
 **Inputs used:** your 6 scripts (`best-scripts.txt`), your 3 live Meta ads, and Fisher Investments' ads (via AdWhispr).
-**Missing:** customer reviews, the landing page (the sandbox can't reach it), competitors 2 and 3 (still loading in AdWhispr), and an approved claims file. Rates appear as `[RATE]` until confirmed. See `claims-draft.md`.
+**Claims:** all lawyer-approved (see `claims.md`).
+**Still to come:** customer reviews (your team is collecting them). The landing page can't be reached from this sandbox.
 
 ---
 
 ## 1. What's running now
 
-**Your live ads** (Meta Ad Library, all started ~Sept 22):
+**Your live ads** (Page ID 666227086575345) (Meta Ad Library, all started ~Sept 22):
 
 | Ad | Headline | Angle |
 |---|---|---|
@@ -22,6 +23,25 @@ Built with the ugc-pipeline skills on 2026-10-04.
 
 Format: text overlay and lifestyle video. Tone: fear. Offer: free report. Audience: $1M+. Their other evergreen offer is a retirement guide ("When to Retire"). Fisher spends heavily to teach your audience that annuities are a trap. That makes **skepticism the main objection** your ads have to beat, and it's also an opening. Your best ad already plays this ("I read it twice too… read the fine print").
 
+
+**The rest of the market:** AdWhispr checked which US annuity advertisers are running ads right now.
+
+| Advertiser | Active ads | What their headlines push |
+|---|---|---|
+| American Retirement Experts | 274 | "See What Your Savings Could Pay You", "Find the Right Annuity for You", "Turn Savings Into Income", "The IRS Loophole for Retirees" |
+| Jim Fisher | 161 | Anti-annuity / retirement guide (adjacent) |
+| Annuity Explained | 46 | Education |
+| RetireWell Annuities | 37 | Annuity matching |
+| AnnuityAdvantage | 16 | "Get Our Free Rate Report", "Compare Fixed-Rate Annuities" |
+| Annuity Lock | 15 | Rate lock |
+| Others seen in the ad library | | Modern Annuity Guru: "Lock In 6.95% Guaranteed"; Bayview Wealth: "Fixed Rates Up to 6.45% APY"; SurePath: "Potentially $8,450/Year Per $100,000" |
+
+**What this tells you:**
+- **Volume wins here.** The leader runs 274 ads, and nearly all of them use the same 2 headlines. Their edge is how many ads they test, not what the ads say.
+- **Rates are the currency.** Competitors headline 6.45%–6.95%. **Your 7.25% is above every rate seen in competitor headlines**, so put the number up front (S6 below).
+- **Some put it in dollars.** SurePath frames it as "$ per year per $100,000". At 7.25%, that's $7,250 a year on $100,000 (S6).
+- **The 4 ad IDs you sent:** 1443491304285153 is Fisher Investments (covered above). The other 3 (1571656731350483, 1802550380876329, 2141880286541585) didn't come up in any search. The Meta connector can't look up an ad by its ID, so I can't see them yet. Paste their page names or a screen recording and I'll break them down.
+
 ## 2. Angles
 
 No reviews yet, so these come from your scripts and the competitor ads. They get re-ranked once reviews are in.
@@ -33,19 +53,21 @@ No reviews yet, so these come from your scripts and the competitor ads. They get
 | A3 | **"Annuities lock up your money" myth** | Fear of losing access | Your Myth script | 2nd |
 | A4 | **Your advisor's shelf** (independent vs captive) | Only shown one company's products, hidden fees | Your F3C3 script | 2nd |
 | A5 | **The market doesn't care when you retire** | Market drop right before or after retiring | Your 9% script, Fisher's fear tone | 3rd |
+| A6 | **The rate gap** (7.25% vs what others advertise) | "Am I getting the best rate?" | Competitor headlines cluster at 6.45–6.95% | **1st** |
+| A7 | **9% income guaranteed** (59+) | Income they can't outlive | Your 9% script (approved claim) | 2nd |
 
 **Avatars to test** (hypotheses until reviews confirm): a CD holder aged 60–70 whose CD is maturing; a 59–64 pre-retiree watching their 401(k); a 65+ retiree who already bought an annuity from a captive agent.
 
 ## 3. Scripts
 
-Every script is written as on-screen actions, kept to 40–50s, with 2 small stumbles left in on purpose. Claims are limited to the "until confirmed" list in `claims-draft.md`.
+Every script is written as on-screen actions, kept to 40–50s, with 2 small stumbles left in on purpose. Claims are limited to the approved list in `claims.md`.
 
 ### S1. Read It Twice v2 (clean rewrite of your winner)
 **Name:** `selfie_woman63_readittwice_v2` · ~42s · ~105 words
 
 | # | On screen | She says | s |
 |---|---|---|---|
-| 1 | Kitchen table, morning light. Woman, 63, reading glasses, holds a printed rate sheet close to her face, eyebrows up | "[RATE] locked. Yeah… I read it twice too." | 3 |
+| 1 | Kitchen table, morning light. Woman, 63, reading glasses, holds a printed rate sheet close to her face, eyebrows up | "7.25% locked. Yeah… I read it twice too." | 3 |
 | 2 | Puts the sheet down, looks at the phone camera | "It's a fixed annuity. Set number of years, set rate. Kind of like a CD, except it's from an insurance company, not a bank." | 8 |
 | 3 | Taps the rate on the page with one finger | "And the rate's locked for the whole term. Not just year one. Every… every year." | 5 |
 | 4 | Holds up last year's 1099 from her CD, shakes it slightly | "It's also tax-deferred, so no tax bill every year like my CD. You pay when you take it out." | 8 |
@@ -76,7 +98,7 @@ Every script is written as on-screen actions, kept to 40–50s, with 2 small stu
 | 3 | Host A frowns, tilts head | **A:** "Wait, they don't show you everything?" | 3 |
 | 4 | Host B gestures as if pointing at a shelf | **B:** "Most advisors can only offer what their company carries. If the one with no annual fee isn't on their shelf, you just… never hear about it." | 9 |
 | 5 | Host A nods slowly | **A:** "So how do you see the rest?" | 3 |
-| 6 | Host B holds up phone showing a ranked comparison | **B:** "We're independent. We compare [40+] carriers and rank the rates for your age and amount side by side. Takes about a minute." | 9 |
+| 6 | Host B holds up phone showing a ranked comparison | **B:** "We're independent. We compare 40+ carriers and rank the rates for your age and amount side by side. Takes about a minute." | 9 |
 | 7 | Host A laughs | **A:** "Make them compete for it." | 3 |
 | 8 | Host B to camera | **B:** "Exactly. See what the whole market would pay you. Link's below." | 5 |
 
@@ -106,19 +128,49 @@ Every script is written as on-screen actions, kept to 40–50s, with 2 small stu
 | 6 | Shows the free guide cover on her phone | "Annuity Heritage Group sent me a free guide that walks through whether it fits you. Or you can just talk to a specialist." | 9 |
 | 7 | Smiles, picks phone back up | "Worth ten minutes before the next bad year. Link's below." | 4 |
 
-## 4. Claims check
+### S6. The rate gap
+**Name:** `selfie_man66_rategap_v1` · ~44s · ~110 words
 
-| Script | Line | Issue | Safer version |
+| # | On screen | He says | s |
 |---|---|---|---|
-| S1 | "[RATE] locked" | Needs a current, sourced rate, plus term and minimum | Fill from rate sheet; add on-screen "Rate as of [date], [term]-yr, [carrier]" |
-| S1 | "Took me two minutes" | Confirm the form length | "Took me a couple of minutes" if true |
-| S2 | "part of your money out every year, no penalty" | Product-specific | Keep "some annuities"; free-withdrawal % varies |
-| S3 | "[40+] carriers" | Your scripts say 40+, 60+ and "every" | Pick one number for all ads |
-| S3 | "no annual fee" | Product-specific | "some have no annual fee" ✅ as written |
-| S4 | "the market can't take your principal down" | True for fixed annuities, but subject to surrender charges and carrier strength | Keep; the fine-print line follows it |
-| All | (no 9%/9.2% claims) | Left out on purpose | Use only with compliance-approved wording |
+| 1 | Living room recliner, man, 66, scrolling his phone, stops, raises eyebrows | "Every annuity ad I scroll past says six-point-something." | 4 |
+| 2 | Turns the phone toward camera, showing a rate comparison | "This one's 7.25%. Locked." | 3 |
+| 3 | Sets phone on his knee | "Fixed annuity, set years, set rate, and it's locked for the whole term. Every year, not just year one." | 7 |
+| 4 | Grabs a notepad and pen, writes "$100,000 × 7.25%" | "On a hundred grand that's, uh… seventy-two fifty a year. I did the math twice." | 6 |
+| 5 | Taps the notepad with the pen | "Tax-deferred too, so no tax bill every year like a CD. You pay when you take it out." | 7 |
+| 6 | Picks phone back up | "Annuity Heritage Group's independent. They compare 40+ carriers and rank the top rates for your age and amount, side by side." | 9 |
+| 7 | Leans back | "Takes about a minute. Check it before the rate moves. Link's below." | 5 |
 
-Not checked against a compliance reviewer or state rules. Annuity ads need sign-off before they run.
+### S7. 9% income guaranteed (59+)
+**Name:** `selfie_woman61_income9_v1` · ~42s · ~105 words · reuses the approved wording from your "9% Income Guaranteed" script
+
+| # | On screen | She says | s |
+|---|---|---|---|
+| 1 | Back patio, woman, 61, gardening gloves on, pauses and looks at camera | "Nine percent income, guaranteed, and your principal doesn't go backwards." | 4 |
+| 2 | Pulls off a glove, half laugh | "I thought that sounded crazy too." | 2 |
+| 3 | Sits on the patio step | "But that's exactly what certain annuities are offering. If you're fifty-nine or older and thinking about retiring… don't ignore this." | 8 |
+| 4 | Gestures out at the yard | "The market doesn't care when you plan to retire." | 3 |
+| 5 | Counts on fingers | "An annuity can create income you can't outlive, without putting your savings in front of market drops." | 7 |
+| 6 | Shrugs, honest | "It isn't for everyone. But for the right person it, um… it changes the whole plan." | 6 |
+| 7 | Holds up phone showing the free guide | "There's a free annuity guide below that explains how it works and if it makes sense for you. Or book a call with one of their specialists." | 9 |
+
+## 4. Claims check (against `claims.md`)
+
+| Script | Line | Approved claim | Status |
+|---|---|---|---|
+| S1 | "7.25% locked… for the whole term… every year" | P1, P2 | ✅ |
+| S1, S6 | "Tax-deferred… no tax bill every year like a CD" | P3 | ✅ |
+| S1 | "rate, carrier rating and fine print side by side… two minutes" | From the "7.25% Locked" original | ✅ |
+| S2 | "part of your money out every year, no penalty" | P5 | ✅ |
+| S2, S4, S5 | "principal isn't riding the stock market" | P4 | ✅ |
+| S3, S6 | "independent… compare 40+ carriers… rank for your age and amount… about a minute" | C1, C2, C3 | ✅ ("40+" used in every ad so they don't contradict each other) |
+| S3 | "the one with no annual fee isn't on their shelf" | P7 + F3C3 original | ✅ |
+| S6 | "$7,250 a year on $100,000" | Simple math from P2 | ⚠️ **New wording, not in the originals.** Ask your lawyer to approve this one line before it runs. |
+| S6 | "every annuity ad I scroll past says six-point-something" | Comparison to competitors | ⚠️ **New wording.** Get it approved, or cut scene 1 and open on scene 2. |
+| S7 | Whole script | P6, P8, from the "9% Income Guaranteed" original | ✅ |
+| S4 | "the big number might be something else entirely" | General education, no product claim | ✅ |
+
+Everything else uses wording your lawyer has already approved. The two ⚠️ lines are the only new claims in this batch.
 
 ## 5. 20 new hooks for your winner (S1, "Read It Twice")
 
@@ -126,21 +178,21 @@ Each one leads into line 2 ("It's a fixed annuity. Set number of years, set rate
 
 | # | Hook | Type | Words |
 |---|---|---|---|
-| 1 | "[RATE] locked. Yeah, I read it twice too." | Original | 8 |
+| 1 | "7.25% locked. Yeah, I read it twice too." | Original | 8 |
 | 2 | "My CD renewed at half this. So I looked." | Confession | 9 |
-| 3 | "Is [RATE] guaranteed real? I checked the fine print." | Question | 9 |
+| 3 | "Is 7.25% guaranteed real? I checked the fine print." | Question | 9 |
 | 4 | "My bank never mentioned this one." | Confession | 6 |
 | 5 | "If your CD matures this year, watch this first." | Mistake | 9 |
-| 6 | "[RATE]. Every year. Not just the first one." | Number | 8 |
+| 6 | "7.25%. Every year. Not just the first one." | Number | 8 |
 | 7 | "I thought this was a scam. It isn't." | Confession | 8 |
 | 8 | "You're probably renewing your CD on autopilot." | Mistake | 7 |
-| 9 | "What's the catch with a [RATE] fixed rate?" | Question | 8 |
+| 9 | "What's the catch with a 7.25% fixed rate?" | Question | 8 |
 | 10 | "Three words my CD never said: locked, every year." | Surprise | 9 |
 | 11 | "I almost let my CD roll over. Glad I didn't." | Confession | 10 |
 | 12 | "Why does this pay more than my bank?" | Question | 8 |
 | 13 | "Sixty-three, retired, and I finally read the fine print." | Confession | 9 |
 | 14 | "Stop comparing CDs to CDs." | Mistake | 5 |
-| 15 | "[RATE] locked for the whole term. I asked twice." | Number | 9 |
+| 15 | "7.25% locked for the whole term. I asked twice." | Number | 9 |
 | 16 | "Nobody told me annuities could work like a CD." | Surprise | 9 |
 | 17 | "Before you renew that CD, read this." | Mistake | 7 |
 | 18 | "I don't trust big numbers. So I read everything." | Confession | 9 |
@@ -152,7 +204,7 @@ Test 5–10 of these on the same body, changing only the hook, named `selfie_wom
 ## 6. Text around the video
 
 **On-screen text, first 2 seconds** (works with sound off, under 8 words):
-1. [RATE] locked. Every year.
+1. 7.25% locked. Every year.
 2. I read the fine print twice
 3. Your CD vs. a fixed annuity
 4. Myth: annuities lock up your money
@@ -187,8 +239,8 @@ Test 5–10 of these on the same body, changing only the hook, named `selfie_wom
 
 ## 7. Next steps
 
-1. **You:** confirm or fix `claims-draft.md` (most important: carrier count, current rate + source, 9% wording).
-2. **You:** send 100–200 customer reviews (Google, Trustpilot or call notes). I'll re-rank the angles and swap in real customer quotes.
-3. **You:** send competitors 2 and 3 as Ad Library links or Page names. Their profile IDs don't match their Page IDs.
+1. **You:** get the 2 ⚠️ lines in S6 approved, or I'll cut them.
+2. **You:** for the 3 competitor ads I couldn't open, send the page names or screen recordings.
+3. **Later:** reviews, once your team has them. I'll re-rank the angles and swap in real customer quotes.
 4. **Me, once you pick scripts:** build them in Higgsfield (quote before spending) or format them for Infinite UGC.
 5. **Live:** ~$20/day per ad, named as above. On Friday, export results and I'll run `ugc-results-analysis`.
