@@ -56,7 +56,11 @@ No reviews yet, so these come from your scripts and the competitor ads. They get
 | A6 | **The rate gap** (7.25% vs what others advertise) | "Am I getting the best rate?" | Competitor headlines cluster at 6.45–6.95% | **1st** |
 | A7 | **9% income guaranteed** (59+) | Income they can't outlive | Your 9% script (approved claim) | 2nd |
 
-**Avatars to test** (hypotheses until reviews confirm): a CD holder aged 60–70 whose CD is maturing; a 59–64 pre-retiree watching their 401(k); a 65+ retiree who already bought an annuity from a captive agent.
+| A8 | **Terrified about retirement income** (teachers / public employees) | "terrified about retirement income" | R2 + a competitor targeting retired teachers | **1st** |
+| A9 | **Work until 70 → retire at 62** | "I thought I'd have to work until 70" | R5 | 2nd |
+| A10 | **Finally sleep** (market volatility) | "protected from market volatility" | R1 + Fisher's fear tone | 2nd (fold into S5) |
+
+**Avatars to test** (now backed by reviews; full profiles in `reviews.md`): a career teacher aged 60–68; a business owner aged 55–62 with no pension; an analytical engineer aged 63–70; a CD holder aged 60–70 whose CD is maturing.
 
 ## 3. Scripts
 
@@ -154,6 +158,35 @@ Every script is written as on-screen actions, kept to 40–50s, with 2 small stu
 | 6 | Shrugs, honest | "It isn't for everyone. But for the right person it, um… it changes the whole plan." | 6 |
 | 7 | Holds up phone showing the free guide | "There's a free annuity guide below that explains how it works and if it makes sense for you. Or book a call with one of their specialists." | 9 |
 
+### S8. 35 years of teaching (review R2)
+**Name:** `selfie_teacher64_terrified_v1` · ~42s · first-person dramatization of Margaret Williams' review
+**On screen for the whole ad:** "Dramatization based on a real client review. Individual results vary."
+
+| # | On screen | She says | s |
+|---|---|---|---|
+| 1 | Woman, 64, cardigan, sitting at a kitchen table with a cardboard box of classroom things (apple mug, name plate) | "After thirty-five years of teaching, I was terrified about one thing." | 4 |
+| 2 | Picks up the name plate, sets it down | "Retirement income. Not the pension part. The… the part after." | 5 |
+| 3 | Looks at camera, honest | "Every ad I saw either promised the moon or said annuities were a trap." | 5 |
+| 4 | Opens laptop, comparison page on screen | "Annuity Heritage Group actually walked me through it. They're independent, so they compared 40+ carriers for my age and amount." | 9 |
+| 5 | Taps the screen | "Fixed rate, locked for the term. Principal not in the market." | 5 |
+| 6 | Closes laptop, small smile | "Their personalized strategy gave me confidence and a clear path forward. Truly life-changing." | 7 |
+| 7 | Picks up the apple mug, to camera | "If you're a teacher about to retire, start with their free guide. Link's below." | 5 |
+
+### S9. Work until 70? (review R5, podcast duo)
+**Name:** `podcast_duo_retire62_v1` · ~45s · Host A = host, 50s · Host B = annuity specialist, 40s · the specialist tells the client's story, so nobody impersonates the client
+**On screen:** "Based on a real client review. Individual results vary."
+
+| # | On screen | Dialogue | s |
+|---|---|---|---|
+| 1 | Two-shot, podcast set, Host B holding a printed review card | **B:** "This client told me, 'I thought I'd have to work until seventy.'" | 4 |
+| 2 | Host A leans in | **A:** "And?" | 1 |
+| 3 | Host B reads from the card | **B:** "'Their annuity strategy helped me retire at sixty-two with complete financial security.'" | 6 |
+| 4 | Host A, skeptical face | **A:** "Okay, what's the catch? There's always a catch." | 3 |
+| 5 | Host B, calm, counting on fingers | **B:** "Read the fine print. Surrender period, fees, what the rate actually is. That's why we put it all side by side." | 8 |
+| 6 | Host B holds up phone with the ranked comparison | **B:** "We're independent. We compare 40+ carriers and rank the top rates for your exact age and amount in about sixty seconds." | 8 |
+| 7 | Host A nods | **A:** "So if I'm a small business owner, no pension…" | 3 |
+| 8 | Host B to camera | **B:** "That's exactly who should run the numbers. Link's below." | 4 |
+
 ## 4. Claims check (against `claims.md`)
 
 | Script | Line | Approved claim | Status |
@@ -165,12 +198,15 @@ Every script is written as on-screen actions, kept to 40–50s, with 2 small stu
 | S2, S4, S5 | "principal isn't riding the stock market" | P4 | ✅ |
 | S3, S6 | "independent… compare 40+ carriers… rank for your age and amount… about a minute" | C1, C2, C3 | ✅ ("40+" used in every ad so they don't contradict each other) |
 | S3 | "the one with no annual fee isn't on their shelf" | P7 + F3C3 original | ✅ |
-| S6 | "$7,250 a year on $100,000" | Simple math from P2 | ⚠️ **New wording, not in the originals.** Ask your lawyer to approve this one line before it runs. |
-| S6 | "every annuity ad I scroll past says six-point-something" | Comparison to competitors | ⚠️ **New wording.** Get it approved, or cut scene 1 and open on scene 2. |
+| S6 | "$7,250 a year on $100,000" | Simple math from P2 | ✅ Lawyer-approved (2026-10-04) |
+| S6 | "every annuity ad I scroll past says six-point-something" | Comparison to competitors | ✅ Lawyer-approved (2026-10-04) |
 | S7 | Whole script | P6, P8, from the "9% Income Guaranteed" original | ✅ |
 | S4 | "the big number might be something else entirely" | General education, no product claim | ✅ |
 
-Everything else uses wording your lawyer has already approved. The two ⚠️ lines are the only new claims in this batch.
+| S8 | Margaret's review, quoted word for word | R2 (testimonial) | ⚠️ See the testimonial note below |
+| S9 | David's review, quoted word for word | R5 (testimonial) | ⚠️ See the testimonial note below |
+
+**Testimonial note (S8, S9):** the claims are true, but these scripts have an AI avatar deliver a real client's story. Before they run, your lawyer should confirm three things. (1) You have the clients' written consent to use their reviews in ads. (2) The on-screen disclosure wording in each script works for you. (3) Results like "retire at 62" need a "results not typical" line under FTC endorsement rules and state insurance advertising rules. S9 avoids the impersonation issue entirely by having the specialist tell the client's story. If your lawyer prefers that, I'll convert S8 to the same format.
 
 ## 5. 20 new hooks for your winner (S1, "Read It Twice")
 
@@ -200,6 +236,24 @@ Each one leads into line 2 ("It's a fixed annuity. Set number of years, set rate
 | 20 | "My husband said 'too good to be true.' He was wrong." | Surprise | 11 |
 
 Test 5–10 of these on the same body, changing only the hook, named `selfie_woman63_<hook>_v1`. Suggested first 6: 2, 3, 5, 7, 14, 20.
+
+
+**10 more hooks in your customers' own words** (from `reviews.md`):
+
+| # | Hook | Source | Words |
+|---|---|---|---|
+| 21 | "Thirty-five years of teaching, and I was terrified about one thing." | R2 | 11 |
+| 22 | "I thought I'd have to work until 70." | R5 | 8 |
+| 23 | "I can finally sleep. Here's why." | R1 | 6 |
+| 24 | "I had no idea fixed indexed annuities could do this." | R6 | 10 |
+| 25 | "My retirement worries turned into retirement excitement. Seriously." | R4 | 8 |
+| 26 | "Retired at 62. I'd planned on 70." | R5 | 7 |
+| 27 | "The market used to keep me up at night." | R1 | 9 |
+| 28 | "Teachers, nobody explains this part of retirement." | R2 | 7 |
+| 29 | "I spent my whole career planning for everyone else." | R4 | 9 |
+| 30 | "I sold for thirty years. I still didn't know this." | R6 | 10 |
+
+Hooks 21–30 quote client reviews, so the testimonial note in section 4 applies to them too.
 
 ## 6. Text around the video
 
@@ -239,8 +293,8 @@ Test 5–10 of these on the same body, changing only the hook, named `selfie_wom
 
 ## 7. Next steps
 
-1. **You:** get the 2 ⚠️ lines in S6 approved, or I'll cut them.
-2. **You:** for the 3 competitor ads I couldn't open, send the page names or screen recordings.
-3. **Later:** reviews, once your team has them. I'll re-rank the angles and swap in real customer quotes.
+1. **You:** have your lawyer check the testimonial note in section 4 (consent, disclosure wording, "results not typical").
+2. **You:** for competitor ads 2141880286541585, 1802550380876329 and 1571656731350483, send the page names or screenshots. Facebook is blocked from this sandbox, and the Meta connector can't look up an ad by its ID.
+3. **Later:** the full review export (100+). I'll re-mine and re-rank.
 4. **Me, once you pick scripts:** build them in Higgsfield (quote before spending) or format them for Infinite UGC.
 5. **Live:** ~$20/day per ad, named as above. On Friday, export results and I'll run `ugc-results-analysis`.
