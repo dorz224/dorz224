@@ -1,6 +1,13 @@
 # Locked presenter: "B" (chosen 2026-10-04)
 
-**Requirement:** presenters must read as American (client requirement). Delivery must be American English.
+## Casting and framing rules (client requirements)
+
+1. **Every presenter is Caucasian American**, with American English delivery.
+2. **1:1-safe framing.** Meta crops 9:16 to 1:1 (and 4:5) for Feed placements. A centered 1:1 crop of a 9:16 frame keeps only the middle ~56% of the height. So:
+   - Medium-wide, waist-up shot. Phone propped or on a tripod ~1.2–1.3 m away at chest height, not an arm's-length face selfie.
+   - Face in the vertical middle of the frame, with clear space above the head.
+   - Nothing important (face, hands, product moment) in the top or bottom ~22% of a 9:16 frame.
+   - All on-screen text overlays go inside the center square too.
 
 **Look:** ordinary 66-year-old American woman, retired, not a model. Weathered skin with real lines, light freckles and age spots. Shoulder-length grey hair pulled back loosely with a few loose strands. Thin wire reading glasses on her nose, small stud earrings, no makeup. Washed-out light-blue denim shirt. Worn beige couch, lamp and bookshelf out of focus behind her. Mixed daylight plus a warm lamp, slightly underexposed. Front-camera selfie at arm's length, a little below her chin, slightly crooked framing, visible noise.
 
@@ -18,7 +25,9 @@
 
 ---
 
-# Presenter casting round 2 (2026-10-04)
+# Presenter casting round 2 (2026-10-04): mostly retired
+
+Round 2 was framed too tight for a 1:1 crop. D, E, G and H don't meet the casting rule and are **dropped**. C and F are kept as backups and can be widened (outpaint, 2 credits each) if wanted.
 
 All American, same realism recipe (Soul 2.0, 9:16 stills). Pick the ones to animate. Each 5s Seedance test costs ~35 credits.
 
@@ -34,3 +43,23 @@ All American, same realism recipe (Soul 2.0, 9:16 stills). Pick the ones to anim
 **Why professionals matter here:** retiree presenters speak as hosts (they never claim to own an annuity). Professionals can say "we compare 40+ carriers" naturally, in the brand's own voice, which is the strongest compliance framing and the style competitor RetireWell already runs (its selfie-style advisor ad).
 
 **Testing for Andromeda:** different presenters only count as different ads to Meta if the concepts differ too. Pair each presenter with a different script and setting (see "Fits scripts"), not the same script with a new face.
+
+
+---
+
+# Presenter casting round 3 (2026-10-04): current shortlist
+
+All Caucasian American, waist-up and centered for 1:1 crops. Soul 2.0, 9:16.
+
+| # | Type | Who | Setting | Job | Image |
+|---|---|---|---|---|---|
+| B-wide | Retiree | Presenter B widened (outpaint, same face) | Living-room couch | `4a30f186-b27a-4a27-83cc-c97c94f2f857` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184059_4a30f186-b27a-4a27-83cc-c97c94f2f857.png |
+| I | Retiree | Woman, 64, ash-blonde/grey, grey sweater | Kitchen counter | `1fca0cd6-f597-4e58-8256-64433d3d3b55` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184115_1fca0cd6-f597-4e58-8256-64433d3d3b55.png |
+| J | Retiree | Man, 67, olive work shirt | Porch chair | `b57a7109-900b-40a1-a335-de581c98ec5b` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184116_b57a7109-900b-40a1-a335-de581c98ec5b.png |
+| K | Retiree | Man, 71, white hair, cardigan | Recliner, living room | `47d616e7-aaa4-4077-94ab-f96250269052` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184116_47d616e7-aaa4-4077-94ab-f96250269052.png |
+| L | Professional | Man, 55, advisor, navy quarter-zip | Office desk | `4a9dcfcd-096e-4b72-a49a-0fd4f1213693` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184117_4a9dcfcd-096e-4b72-a49a-0fd4f1213693.png |
+| M | Professional | Woman, 51, annuity specialist, camel blazer | Home office desk | `195b5d7a-8cfd-4348-88da-092c2f213833` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184116_195b5d7a-8cfd-4348-88da-092c2f213833.png |
+
+Suggested pairing: B-wide or I → hero ad "7.25%. Locked."; J → S2 myth / S6 rate gap; K → S4 "too good to be true"; L → S3 advisor's shelf / specialist hero; M → S9 podcast host B.
+
+**Prompt recipe that produced these** (reuse for new presenters): "Frame grab from a phone video [he/she] filmed of [him/her]self. Medium-wide shot: phone propped ~1.2 m away at chest height, seen from the waist up, centered left-to-right, face in the vertical middle of the frame (not near the top), plenty of space above the head and the room visible on both sides. Ordinary [age]-year-old Caucasian American [man/woman], [retired / role], real person, not a model: [real skin details]. [Clothes]. [Setting]. [Flat, uneven, slightly underexposed light]. Phone camera wide lens, slight noise. Mid-sentence, [expression], looking into the lens. No text, no paper, no logos."
