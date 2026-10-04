@@ -1,4 +1,4 @@
-# Infinite UGC input: "7.25%. Locked." v3
+# Infinite UGC input: "7.25%. Locked." v3 (36s cut, Starter plan)
 
 Paste each block into the matching Infinite UGC field. The source is `hero-ad-v3.md`.
 
@@ -25,25 +25,25 @@ Tall, **9:16** (TikTok and Reels).
 Scene 1 (4s) — Kitchen table, morning. She holds a printed rate sheet close to her face, then lowers it, eyebrows up, half-laugh.
 "7.25%. Locked. Yeah… read that twice."
 
-Scene 2 (8s) — Same. Puts the sheet down and talks to the phone, matter-of-fact.
-"It's a fixed annuity. Set number of years, set rate. Like a CD, except it's from an insurance company, not a bank."
+Scene 2 (5s) — Same. Puts the sheet down and talks to the phone, matter-of-fact.
+"Fixed annuity. Set years, set rate. Like a CD, but from an insurance company."
 
-Scene 3 (5s) — Same. Taps the rate on the page with one finger, firm.
-"And it's locked for the whole term. Not year one. Every… every year."
+Scene 3 (3s) — Same. Taps the rate on the page with one finger, firm.
+"Locked for the whole term. Every year."
 
-Scene 4 (7s) — Same, notepad and pen. She writes numbers, then turns the notepad to camera with a small nod.
-"Let's do the math. On a hundred grand, that's seventy-two fifty a year."
+Scene 4 (5s) — Same, notepad and pen. She writes numbers, then turns the notepad to camera with a small nod.
+"On a hundred grand, that's seventy-two fifty a year."
 
-Scene 5 (7s) — Same. Holds up a 1099 tax form and gives it a small shake, knowing look.
-"And it's tax-deferred. No tax bill every year like a CD. You pay when you take it out."
+Scene 5 (4s) — Same. Holds up a 1099 tax form and gives it a small shake, knowing look.
+"Tax-deferred, too. No tax bill every year like a CD."
 
-Scene 6 (5s) — Same. Flips the rate sheet over to the fine print, knowing half-smile.
-"The number's real. So is the fine print. Read both."
+Scene 6 (3s) — Same. Flips the rate sheet over to the fine print, knowing half-smile.
+"The number's real. So is the fine print."
 
-Scene 7 (8s) — Same. Turns her phone to camera, showing a comparison screen with rates, carrier ratings and terms in columns. Pleased.
-"Annuity Heritage Group is independent. We compare 40+ carriers, side by side, for your exact age and amount. Takes about two minutes."
+Scene 7 (7s) — Same. Turns her phone to camera, showing a comparison screen with rates, carrier ratings and terms in columns. Pleased.
+"Annuity Heritage Group is independent. We compare 40+ carriers side by side for your age and amount."
 
-Scene 8 (4s) — Same. Back to camera, sets the phone down, casual.
+Scene 8 (3s) — Same. Back to camera, sets the phone down, casual.
 "Check it before the rate moves. Link's below."
 ```
 
@@ -53,7 +53,8 @@ Scene 8 (4s) — Same. Back to camera, sets the phone down, casual.
 
 ## 6. Before you pay: check the preview
 
-- Planned length should be **about 45–48s**. If it's over, cut scene 5 to "Tax-deferred, too. No tax bill every year like a CD."
+- Planned length should be **about 34–36s**. The Starter plan limit is under 40s.
+- If it comes back over 38s, cut scene 5 completely (−4s). The tax point is still in the ad copy.
 - Check the image and clip counts.
 
 ## 7. Check the scene plan
