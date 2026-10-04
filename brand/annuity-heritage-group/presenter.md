@@ -97,3 +97,12 @@ Same people as round 3, re-shot with prompts that describe only what the viewer 
 - Seedance 2.5, 5s, 720p, native voice, static eye-level shot, line: "Seven point two five percent. Locked. Yeah... read that twice." (he taps the desk on "Locked")
 - Job `dc4faea6-94dc-4aa2-9756-9dadd1e8c681`: https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_185048_dc4faea6-94dc-4aa2-9756-9dadd1e8c681.mp4
 - Suggested name: `advisor_man55_readittwice_v1`
+
+## Voice feedback (client, 2026-10-04): apply to all future builds
+
+The L2 hero ad voice was **too monotone and AI-sounding**. Loudness stayed too even, with too little movement away from the average in pitch, volume and pace. Next time:
+- Write per-line delivery directions (stressed word, pitch rise/fall, pace change, volume drop or lift, pauses, a small laugh), not one global "calm, not salesy" tone.
+- Use or design a more expressive voice reference. The current L2 reference, the hook test `dc4faea6…`, is flat.
+- Mix with two-pass linear loudnorm (or plain gain) instead of single-pass loudnorm, so the dynamics survive.
+- QC the loudness range (ebur128 LRA) as well as the transcript.
+Full rules: `.claude/skills/ugc-scene-builder/SKILL.md` → "Voice delivery: never monotone".

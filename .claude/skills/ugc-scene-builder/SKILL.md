@@ -72,6 +72,30 @@ The still sets the look of the whole ad, so get it right before spending video c
 - **To re-frame a chosen presenter, keep the face** by using a reference-image model (e.g. Higgsfield `flux_3_image` with the still as `image_references`), not outpainting, which keeps the old selfie arm and angle.
 - Generate cheap stills first (Soul 2.0 is ~0.12 credits), let the user pick, then animate one 5s test before the full ad.
 
+## Voice delivery: never monotone (standing client feedback)
+
+AI voices default to a flat, even, average delivery: same loudness, same pitch, same pace. Viewers hear that as AI. Fight it in the script, the prompt, the reference and the mix.
+
+**Script**
+- Vary sentence length: a two-word punch ("Locked.") next to a longer, running sentence.
+- Write in asides, rhetorical questions and reactions: "Honestly?", "Look—", "Here's the thing", "No, really."
+- Mark the one word per line that carries the meaning; the prompt will stress it.
+
+**Prompt (per line, not one global "tone")**
+- Don't use only "calm, unhurried, not salesy". That produced flat reads. Describe a performance: "animated, like telling a friend surprising news".
+- For each line, give at least one of: the **stressed word** ("stress on LOCKED"), a **pitch move** ("rises on the question, drops on the answer"), a **pace change** ("rushes the aside, slows right down on the number"), a **volume change** ("drops to a near-whisper on 'so is the fine print'", "louder, more energy on the hook"), and a **beat** ("short pause and a breath before the number", "small laugh").
+- Hook line: the most energy and the widest pitch range in the ad. CTA: warm, a bit quieter and closer, not a flat read-out.
+- Keep it human-sized; it's a person talking, not a radio announcer.
+
+**Voice reference**
+- A voice reference passes its flatness on. Use an expressive take as the reference, or design one first (Seed Audio / Eleven v4 with lower stability and bracketed cues like [chuckles], [leans in]), then attach it to every clip.
+
+**Mix**
+- Don't squash the dynamics. Single-pass `loudnorm` with a low LRA flattens the performance. Use two-pass loudnorm in `linear=true` mode (or plain gain) to hit about -14 LUFS while keeping the natural range.
+
+**QC**
+- Listen for variation, not just correct words. Measure loudness range: `ffmpeg -i ad.mp4 -af ebur128 -f null -` and check the LRA. Below about 5 LU on a talking-head ad usually sounds flat; re-generate the flattest clip with stronger per-line direction.
+
 ## Output
 
 A scene table (# | setting | action | expression | dialogue | sec), the one-line character description(s), total runtime, and the ad name (`format_avatar_hook_version`) to use when it goes live.
