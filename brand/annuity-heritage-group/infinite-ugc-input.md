@@ -4,17 +4,11 @@ Paste each block into the matching Infinite UGC field. The source is `hero-ad-v3
 
 ## 1. Avatar image (becomes the first frame)
 
-**Image Gen** tab. Settings: 9:16 · count **2** (not 4) · **remove the logo upload** · style preset **none** (or Selfie UGC if "none" isn't offered) · pick the most photoreal people model in the model dropdown.
+**Locked: presenter B.** Don't generate a new one. Download this image and upload it in Infinite UGC's **Upload** avatar tab:
 
-Paste:
+https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_183054_a12afba5-e6c2-4d71-8647-2c5d6ad13628.png
 
-```text
-Unretouched front-camera phone selfie, frozen from a video call. A 64-year-old American woman, an ordinary retiree, not a model: uneven skin tone, real wrinkles and crow's feet, a few age spots, slightly frizzy grey hair, short and not salon-styled, a little under-eye puffiness, no makeup except faded lipstick. Reading glasses pushed up on top of her head. Faded navy cotton cardigan over a grey t-shirt. She sits at a slightly cluttered kitchen table: a chipped coffee mug and a stack of mail, out of focus. Flat overcast daylight from a window on her left, slightly cool and a bit underexposed. Held at arm's length by an older iPhone, slightly below eye level, tilted a few degrees, wide-angle distortion, visible noise, mild JPEG compression. Mid-sentence, mouth slightly open, eyes on the lens, neutral and friendly, not smiling for a photo. Hands out of frame.
-No paper, no documents, no phone, no text, no numbers, no logos anywhere in the image.
-Avoid: symmetrical model face, glossy or airbrushed skin, perfect white teeth, salon hair, golden-hour glow, warm orange grade, blurry studio background, staged props, posed grin, perfectly centered framing.
-```
-
-Pick the one that looks most like a real person's video call. If both look fake, regenerate with count 1. Don't move on until the face is right.
+Details and the reasons she was picked are in `presenter.md`. Voice: American English, warm older woman.
 
 ## 2. Product
 
@@ -28,7 +22,7 @@ Tall, **9:16** (TikTok and Reels).
 ## 4. Script (paste as scenes)
 
 ```text
-Scene 1 (4s) — Kitchen table, phone at arm's length. She pulls her reading glasses down onto her nose, leans in, eyebrows up, half-laugh.
+Scene 1 (4s) — Living-room couch, phone at arm's length. She pushes her wire glasses up her nose with one finger, leans in, eyebrows up, half-laugh.
 "7.25%. Locked. Yeah… read that twice."
 
 Scene 2 (5s) — Same. Sits back, talks to camera, matter-of-fact, one small shrug.
@@ -43,7 +37,7 @@ Scene 4 (5s) — Same. Glances up as if doing math in her head, then back to the
 Scene 5 (4s) — Same. Raises one eyebrow, knowing look.
 "Tax-deferred, too. No tax bill every year like a CD."
 
-Scene 6 (3s) — Same. Takes her glasses off, half-smile.
+Scene 6 (3s) — Same. Tilts her head, half-smile.
 "The number's real. So is the fine print."
 
 Scene 7 (7s) — Same. Leans toward the camera, conversational.
