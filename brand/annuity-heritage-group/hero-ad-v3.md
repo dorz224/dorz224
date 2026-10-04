@@ -5,7 +5,7 @@
 All claims are lawyer-approved (client confirmation 2026-10-04). Rate: 7.25%, as in your live ad "7.25%. Locked. Read It Twice". You wrote 7.24% in chat; tell me if it should change.
 
 **Name:** `selfie_woman63_readittwice_v3` · 9:16 · ~34s · ~80 words (under 40s for the Starter plan)
-**Presenter:** woman, 63, silver bob, reading glasses, soft cardigan over a t-shirt, warm kitchen at morning light, phone held at arm's length (selfie framing)
+**Presenter:** locked to presenter B; see `presenter.md` (66-year-old American woman, denim shirt, living-room couch).
 **Character line (repeat in every scene prompt):** "63-year-old woman, silver chin-length bob, tortoiseshell reading glasses, oatmeal cardigan over a white t-shirt, small gold hoop earrings."
 
 **Presenter framing:** she's a **host for Annuity Heritage Group**, not a customer. Nothing in the script says she owns an annuity, used the service or got results. That keeps the ad within FTC endorsement rules, and Higgsfield won't generate AI "customer testimonials" anyway. The script is written so it can be read straight to camera as a brand presenter.
