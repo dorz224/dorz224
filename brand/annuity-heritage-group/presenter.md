@@ -47,7 +47,9 @@ All American, same realism recipe (Soul 2.0, 9:16 stills). Pick the ones to anim
 
 ---
 
-# Presenter casting round 3 (2026-10-04): current shortlist
+# Presenter casting round 3 (2026-10-04): superseded
+
+The phone and tripod were visible in these images because the prompts described the camera rig. Replaced by round 4.
 
 All Caucasian American, waist-up and centered for 1:1 crops. Soul 2.0, 9:16.
 
@@ -63,3 +65,29 @@ All Caucasian American, waist-up and centered for 1:1 crops. Soul 2.0, 9:16.
 Suggested pairing: B-wide or I → hero ad "7.25%. Locked."; J → S2 myth / S6 rate gap; K → S4 "too good to be true"; L → S3 advisor's shelf / specialist hero; M → S9 podcast host B.
 
 **Prompt recipe that produced these** (reuse for new presenters): "Frame grab from a phone video [he/she] filmed of [him/her]self. Medium-wide shot: phone propped ~1.2 m away at chest height, seen from the waist up, centered left-to-right, face in the vertical middle of the frame (not near the top), plenty of space above the head and the room visible on both sides. Ordinary [age]-year-old Caucasian American [man/woman], [retired / role], real person, not a model: [real skin details]. [Clothes]. [Setting]. [Flat, uneven, slightly underexposed light]. Phone camera wide lens, slight noise. Mid-sentence, [expression], looking into the lens. No text, no paper, no logos."
+
+
+---
+
+# Presenter casting round 4 (2026-10-04): current shortlist
+
+Same people as round 3, re-shot with prompts that describe only what the viewer sees.
+
+| # | Type | Who | Setting | Job | Image |
+|---|---|---|---|---|---|
+| B2 | Retiree | Presenter B, same face (FLUX 3 with B as reference) | Living-room couch | `72ec3b89-21c3-49b5-b186-de38940e4d59` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184618_72ec3b89-21c3-49b5-b186-de38940e4d59.png |
+| I2 | Retiree | Woman, 64, grey sweater | Kitchen counter | `e3c0229f-ede4-47b2-a47e-ac60615d1e89` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184617_e3c0229f-ede4-47b2-a47e-ac60615d1e89.png |
+| J2 | Retiree | Man, 67, olive work shirt | Porch chair | `4a494f87-6bcb-4060-8eac-a8ab4b314016` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184618_4a494f87-6bcb-4060-8eac-a8ab4b314016.png |
+| K2 | Retiree | Man, 71, cardigan | Recliner | `c950edad-79a7-4e31-8d05-f505aca89cc4` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184616_c950edad-79a7-4e31-8d05-f505aca89cc4.png |
+| L2 | Professional | Advisor, man, 55 | Office desk | `6da9e278-e70a-4056-a4e3-df179f71913b` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184616_6da9e278-e70a-4056-a4e3-df179f71913b.png |
+| M2 | Professional | Specialist, woman, 51 | Home office desk | `ffd6667c-fd0f-402b-90e7-e9509def8c3a` | https://d8j0ntlcm91z4.cloudfront.net/user_3EHQ6Sxu6BlVaZPwEbzGVWsOVqi/hf_20261004_184615_ffd6667c-fd0f-402b-90e7-e9509def8c3a.png |
+
+## Prompt rules learned (use for every future presenter)
+
+1. **Describe what the viewer sees, never how it was filmed.** Words like "phone", "propped", "tripod", "selfie", "filming herself" make the model draw the gear into the scene. Say "vertical video still, eye-level medium shot of X talking directly to the viewer" instead.
+2. **Explicitly ban gear:** "Nothing between [him/her] and the viewer: no camera, phone, tripod, ring light, microphone, laptop, monitor or mirror anywhere in the frame."
+3. **No laptops or screens on desks.** They read as filming gear and invite fake on-screen text. Use a mug, a pen or a closed notebook.
+4. **1:1-safe composition, stated as positions:** "centered left-to-right, the top of the head about a quarter of the way down from the top of the frame, face near the vertical center, relaxed hands in the lower-middle of the frame."
+5. **Normal lens, not wide-angle.** At waist-up distance, wide-angle distortion looks wrong. Use "normal lens with no wide-angle distortion, slight sensor noise, mild compression, true-to-life color."
+6. **Give the hands a job** (resting in lap, on the counter, on the armrests). Floating or hidden hands are where AI images break.
+7. **Same identity across reframes:** use FLUX 3 (`flux_3_image`) with the chosen still as `image_references`, not outpaint. Outpaint keeps the original selfie arm and camera angle.
